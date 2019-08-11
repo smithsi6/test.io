@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);
 
 
 
@@ -22,11 +21,11 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.5rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.4rem;
+  font-size: 5.6rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
@@ -37,10 +36,10 @@ body {
 }
 .display-4 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.44rem;
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
@@ -50,7 +49,7 @@ body {
   font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 1rem;
 }
 .display-7 > .mbr-iconfont {
@@ -63,9 +62,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.2rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.8rem;
+    font-size: calc( 1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -73,9 +72,9 @@ body {
     line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.8rem;
-    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.72rem;
+    font-size: calc( 0.965rem + (0.9 - 0.965) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (0.965rem + (0.9 - 0.965) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.2rem;
@@ -660,7 +659,7 @@ a:hover {
   background-color: #f5f5f5;
   box-shadow: none;
   color: #565656;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 1rem;
   line-height: 1.43;
   min-height: 3.5em;
@@ -685,6 +684,7 @@ a:hover {
   right: 0;
   top: 0;
   z-index: 0;
+  pointer-events: none;
 }
 blockquote {
   font-style: italic;
@@ -1175,7 +1175,7 @@ pre {
     display: none;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 1023px) {
   .navbar-toggleable-md .navbar-nav .dropdown-menu {
     position: static;
     float: none;
@@ -1185,7 +1185,7 @@ pre {
     padding-left: 0;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .navbar-toggleable-md {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1383,9 +1383,40 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #149dcc;
+  color: #ffffff;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:after,
+.jq-number__spin.plus:after {
+  transition: 0.4s;
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:hover:after,
+.jq-number__spin.plus:hover:after {
+  border-top-color: #149dcc;
+  border-bottom-color: #149dcc;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  color: #ffffff !important;
+  background-color: #149dcc !important;
+  box-shadow: none!important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #ffffff !important;
+  background: #ff3366 !important;
+  box-shadow: none !important;
+}
 .cid-rggwtRVOUG {
-  padding-top: 105px;
-  padding-bottom: 75px;
+  padding-top: 135px;
+  padding-bottom: 135px;
   background-image: url("../../../assets/images/hopey-lowpoly5-2000x1199.png");
 }
 .cid-rggwtRVOUG P {
@@ -1394,18 +1425,27 @@ body {
 }
 .cid-rggwtRVOUG H1 {
   text-align: left;
+  color: #232323;
 }
 .cid-rggwtRVOUG SPAN {
   color: #767676;
 }
+.cid-ryOXOJw99W {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-ryOXOJw99W .mbr-section-subtitle {
+  color: #767676;
+}
 .cid-rggATLFXtk {
-  padding-top: 15px;
+  padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #efefef;
+  background-color: #ffffff;
 }
 .cid-rggATLFXtk .line {
-  background-color: #232323;
-  color: #232323;
+  background-color: #ffffff;
+  color: #ffffff;
   align: center;
   height: 2px;
   margin: 0 auto;
@@ -1425,7 +1465,7 @@ body {
 .cid-rggASiUFfj {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #efefef;
+  background-color: #ffffff;
 }
 .cid-rggASiUFfj h4 {
   text-align: left;
@@ -1438,7 +1478,7 @@ body {
 }
 .cid-rggASiUFfj .card-img {
   text-align: left;
-  background-color: #ffffff;
+  background-color: #efefef;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   padding: 3rem 2.5rem 0 2.5rem;
@@ -1449,16 +1489,21 @@ body {
 }
 .cid-rggASiUFfj .card-box {
   padding: 0rem 2.5rem 3rem 2.5rem;
-  background-color: #ffffff;
+  background-color: #efefef;
 }
 .cid-rggASiUFfj .card-title,
 .cid-rggASiUFfj .card-img {
   text-align: center;
+  color: #232323;
+}
+.cid-rggASiUFfj P {
+  text-align: center;
+  color: #232323;
 }
 .cid-rggBUVsMHh {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #efefef;
+  background-color: #ffffff;
 }
 .cid-rggBUVsMHh h4 {
   text-align: left;
@@ -1471,7 +1516,7 @@ body {
 }
 .cid-rggBUVsMHh .card-img {
   text-align: left;
-  background-color: #ffffff;
+  background-color: #efefef;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   padding: 3rem 2.5rem 0 2.5rem;
@@ -1482,16 +1527,21 @@ body {
 }
 .cid-rggBUVsMHh .card-box {
   padding: 0rem 2.5rem 3rem 2.5rem;
-  background-color: #ffffff;
+  background-color: #efefef;
 }
 .cid-rggBUVsMHh .card-title,
 .cid-rggBUVsMHh .card-img {
   text-align: center;
+  color: #232323;
+}
+.cid-rggBUVsMHh P {
+  text-align: center;
+  color: #232323;
 }
 .cid-rgA2UyUcaV {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #efefef;
+  background-color: #ffffff;
 }
 .cid-rgA2UyUcaV h4 {
   text-align: left;
@@ -1504,7 +1554,7 @@ body {
 }
 .cid-rgA2UyUcaV .card-img {
   text-align: left;
-  background-color: #ffffff;
+  background-color: #efefef;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   padding: 3rem 2.5rem 0 2.5rem;
@@ -1515,9 +1565,14 @@ body {
 }
 .cid-rgA2UyUcaV .card-box {
   padding: 0rem 2.5rem 3rem 2.5rem;
-  background-color: #ffffff;
+  background-color: #efefef;
 }
 .cid-rgA2UyUcaV .card-title,
 .cid-rgA2UyUcaV .card-img {
   text-align: center;
+  color: #232323;
+}
+.cid-rgA2UyUcaV P {
+  text-align: center;
+  color: #232323;
 }
