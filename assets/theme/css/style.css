@@ -963,24 +963,3 @@ blockquote {
 	top: 0;
 	left: -2400px;
 }
-
-.position-relative.text-center {
-    display: flex;
-    flex-direction: row; /* Arrange items in a row */
-    justify-content: center; /* Center images */
-    align-items: center; /* Align vertically */
-    flex-wrap: nowrap; /* Prevent wrapping */
-    gap: 10px; /* Optional spacing between images */
-}
-
-.embla__slide {
-    flex: 0 0 auto; /* Prevents stretching */
-    width: auto; /* Allow images to maintain natural width */
-    max-width: 45%; /* Ensure images are not too large */
-}
-
-.item-img img {
-    width: 100%; /* Ensure images fit within their containers */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 100%; /* Prevent overflow */
-}
