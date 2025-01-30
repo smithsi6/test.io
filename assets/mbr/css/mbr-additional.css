@@ -21,11 +21,11 @@ img,
 body {
   font-family: Inter Tight;
 }
-
 .display-1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif !important;
   font-size: 3.4rem;
   line-height: 1;
+
 }
 .display-1 > .mbr-iconfont {
   font-size: 4.25rem;
