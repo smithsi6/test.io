@@ -736,8 +736,7 @@ a {
   width: 100%;
 }
 .cid-uj2WB7QX4a nav.navbar {
-  position: fixed;
-  background-color: #adcdc7 !important;
+  position: fixed; 
 }
 .cid-uj2WB7QX4a .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -842,7 +841,7 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: #adcdc7 !important;
+  background: rgba(255, 255, 255, 0.2);
 }
 .cid-uj2WB7QX4a .navbar.opened {
   transition: all 0.3s;
@@ -1061,6 +1060,7 @@ a {
 .cid-uj2WB7QX4a .navbar-dropdown {
   padding: 0 1rem;
   position: fixed;
+  background-color: #adcdc7 !important;
 }
 .cid-uj2WB7QX4a a.nav-link {
   display: flex;
