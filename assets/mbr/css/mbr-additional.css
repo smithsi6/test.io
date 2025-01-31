@@ -737,7 +737,7 @@ a {
 }
 .cid-uj2WB7QX4a nav.navbar {
   position: fixed;
-  background-color: #adcdc7;
+  background-color: #adcdc7 !important;
 }
 .cid-uj2WB7QX4a .dropdown-item:before {
   font-family: Moririse2 !important;
