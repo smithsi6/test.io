@@ -533,7 +533,7 @@ a.text-secondary.active {
 a.text-success:hover,
 a.text-success:focus,
 a.text-success.active {
-  color: #7a7a7a !important;
+  color: #b39eb5 !important;
 }
 a.text-info:hover,
 a.text-info:focus,
@@ -829,7 +829,7 @@ a {
 }
 .cid-uj2WB7QX4a .dropdown-menu,
 .cid-uj2WB7QX4a .navbar.opened {
-  background: #ffffff !important;
+  background: #b39eb5 !important;
 }
 .cid-uj2WB7QX4a .nav-item:focus,
 .cid-uj2WB7QX4a .nav-link:focus {
