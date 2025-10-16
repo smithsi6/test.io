@@ -555,6 +555,12 @@ a.text-white:focus,
 a.text-white.active {
   color: #c7c7c7 !important;
 }
+
+a.text-gray:hover,
+a.text-gray:focus,
+a.text-gray.active {
+  color: #c7c7c7 !important;
+}
 a.text-black:hover,
 a.text-black:focus,
 a.text-black.active {
