@@ -1,6 +1,6 @@
 @charset "UTF-8";
 section {
-  background-color: #b39eb5; !important;
+  background-color: #C4876B; !important;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
   font-weight: 400;
   color: #232323;
   position: relative;
-  background-color: #acb9ad!important;
+  background-color: #6B3A2A!important;
 }
 
 button {
@@ -19,10 +19,10 @@ button {
 
 .embla__button,
 .carousel-control {
-  background-color: #b39eb5 !important;
+  background-color: #C4876B !important;
   opacity: 0.8 !important;
   color: #464845 !important;
-  border-color: #b39eb5 !important;
+  border-color: #C4876B !important;
 }
 
 .carousel .close,
@@ -167,7 +167,7 @@ section .mbr-background-video-preview {
 }
 
 .mbr-black {
-  color: #484B49;
+  color: #4A3B34;
 }
 
 .mbr-bg-white {
