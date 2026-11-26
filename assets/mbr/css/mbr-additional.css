@@ -1691,3 +1691,6 @@ section[id] { scroll-margin-top: 84px; }
 .cid-uj33xvSCBc .term ul, .cid-uj33xvSCBc .term li { text-align: left; }
 /* class details: comments open without a jump (padding instead of margins, which collapse after opening) */
 .cid-uj33xvSCBc .term ul { margin: 0 !important; padding-top: 6px; padding-bottom: 4px; }
+/* class details: section labels (e.g. two sections in one semester) */
+.cid-uj33xvSCBc .term-section { margin-top: 10px; font-size: 0.74rem; font-weight: 600; color: #8A7268; letter-spacing: .02em; }
+.cid-uj33xvSCBc .term-section + .term-rating { margin-top: 2px !important; }
