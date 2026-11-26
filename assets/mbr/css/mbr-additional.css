@@ -1694,3 +1694,5 @@ section[id] { scroll-margin-top: 84px; }
 /* class details: section labels (e.g. two sections in one semester) */
 .cid-uj33xvSCBc .term-section { margin-top: 10px; font-size: 0.74rem; font-weight: 600; color: #8A7268; letter-spacing: .02em; }
 .cid-uj33xvSCBc .term-section + .term-rating { margin-top: 2px !important; }
+/* class details: placeholder line for a term without evaluations yet */
+.cid-uj33xvSCBc .term-pending { margin-top: 7px; font-size: 0.8rem; font-style: italic; color: #8A7268; }
