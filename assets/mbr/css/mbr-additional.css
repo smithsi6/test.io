@@ -1661,3 +1661,20 @@ section[id] { scroll-margin-top: 84px; }
 .cid-uj33xvSCBc .also-teach-list li { padding: 7px 16px !important; border-radius: 999px; background: #FEFCF9; border: 1.5px solid #D9A68A; color: #8A4A33 !important; font-size: 0.9rem !important; font-weight: 600; line-height: 1.2; transition: background .15s ease, color .15s ease; }
 .cid-uj33xvSCBc .also-teach-list li::before { display: none !important; }
 .cid-uj33xvSCBc .also-teach-list li:hover { background: #F6E6DB; }
+/* ===== class details ===== */
+.cid-uj33xvSCBc .text-muted .text-start { max-width: none !important; min-width: 0 !important; width: 100%; }
+.cid-uj33xvSCBc .term { font-family: "Noto Sans JP", sans-serif; color: #4A3B34; font-size: 0.86rem; line-height: 1.45; text-align: left; }
+.cid-uj33xvSCBc .term a { text-decoration: none; }
+.cid-uj33xvSCBc .term .term-links a { color: #B0603F !important; font-weight: 600; }
+.cid-uj33xvSCBc a.term-comments { display: inline-block !important; text-align: left !important; margin-top: 6px; font-size: 0.8rem; font-weight: 600; color: #B0603F !important; }
+.cid-uj33xvSCBc .term .collapse ul { margin-top: 6px; font-size: 0.82rem; }
+/* class details: chips + rating */
+.cid-uj33xvSCBc .term + .term { margin-top: 12px; padding-top: 12px; border-top: 1px solid #EEDFD3; }
+.cid-uj33xvSCBc .term-head { font-size: 0.72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #B0603F; margin-bottom: 6px; }
+.cid-uj33xvSCBc .term-facts { display: flex; flex-wrap: wrap; gap: 6px; }
+.cid-uj33xvSCBc .fact { padding: 2px 10px; border-radius: 999px; background: #F6E6DB; color: #8A4A33; font-size: 0.76rem; font-weight: 600; }
+.cid-uj33xvSCBc .fact-label { display: none; }
+.cid-uj33xvSCBc .term-rating { margin-top: 7px; }
+.cid-uj33xvSCBc .term-rating .rating-value::before { content: "\2605  "; color: #C4876B; }
+.cid-uj33xvSCBc .rating-num { font-weight: 700; color: #6B3A2A; }
+.cid-uj33xvSCBc .term-links::before { content: "\00B7  "; color: #B08A78; }
