@@ -1689,3 +1689,5 @@ section[id] { scroll-margin-top: 84px; }
 @media (min-width: 992px) and (max-width: 1199px) { .cid-uj33xvSCBc .card-title { min-height: 3.9em; } }
 /* class details: comments stay left-aligned while the dropdown opens */
 .cid-uj33xvSCBc .term ul, .cid-uj33xvSCBc .term li { text-align: left; }
+/* class details: comments open without a jump (padding instead of margins, which collapse after opening) */
+.cid-uj33xvSCBc .term ul { margin: 0 !important; padding-top: 6px; padding-bottom: 4px; }
