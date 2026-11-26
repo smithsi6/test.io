@@ -1681,7 +1681,6 @@ section[id] { scroll-margin-top: 84px; }
 /* class details: centered to match the centered card content, with equal-size previews */
 .cid-uj33xvSCBc .card-box > div[style*="height: 15px"] { display: none; }
 .cid-uj33xvSCBc .card-box > a > img { aspect-ratio: 4 / 5; height: auto !important; object-fit: cover; object-position: top; }
-.cid-uj33xvSCBc .card-box > a > img.img-natural { aspect-ratio: auto; }
 .cid-uj33xvSCBc .text-muted { align-items: stretch !important; }
 .cid-uj33xvSCBc .term { text-align: center; }
 .cid-uj33xvSCBc .term-facts { justify-content: center; }
