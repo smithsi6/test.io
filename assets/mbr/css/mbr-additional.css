@@ -1696,3 +1696,7 @@ section[id] { scroll-margin-top: 84px; }
 .cid-uj33xvSCBc .term-section + .term-rating { margin-top: 2px !important; }
 /* class details: placeholder line for a term without evaluations yet */
 .cid-uj33xvSCBc .term-pending { margin-top: 7px; font-size: 0.8rem; font-style: italic; color: #8A7268; }
+/* every course title on exactly two lines so cards line up */
+.cid-uj33xvSCBc .card-title { min-height: 0 !important; }
+.cid-uj33xvSCBc .card-title .title-lines { display: block; font-weight: inherit !important; color: inherit; line-height: 1.3; min-height: 2.6em; text-align: center; }
+.cid-uj33xvSCBc .card-title .title-lines.title-one { min-height: 1.3em; }
