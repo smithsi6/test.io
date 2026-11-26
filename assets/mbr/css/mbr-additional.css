@@ -1678,3 +1678,12 @@ section[id] { scroll-margin-top: 84px; }
 .cid-uj33xvSCBc .term-rating .rating-value::before { content: "\2605  "; color: #C4876B; }
 .cid-uj33xvSCBc .rating-num { font-weight: 700; color: #6B3A2A; }
 .cid-uj33xvSCBc .term-links::before { content: "\00B7  "; color: #B08A78; }
+/* class details: centered to match the centered card content, with equal-size previews */
+.cid-uj33xvSCBc .card-box > div[style*="height: 15px"] { display: none; }
+.cid-uj33xvSCBc .card-box > a > img { aspect-ratio: 4 / 5; height: auto !important; object-fit: cover; object-position: top; }
+.cid-uj33xvSCBc .text-muted { align-items: stretch !important; }
+.cid-uj33xvSCBc .term { text-align: center; }
+.cid-uj33xvSCBc .term-facts { justify-content: center; }
+.cid-uj33xvSCBc a.term-comments { text-align: center !important; }
+.cid-uj33xvSCBc .term .collapse ul { text-align: left; }
+@media (min-width: 992px) and (max-width: 1199px) { .cid-uj33xvSCBc .card-title { min-height: 3.9em; } }
