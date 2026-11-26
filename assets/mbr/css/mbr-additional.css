@@ -1557,7 +1557,7 @@ a {
 .cid-uj33xvSCBc .course-group-label { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 600; color: #6B3A2A; display: flex; align-items: center; gap: 16px; margin: 0.5rem 0 1.5rem; }
 .cid-uj33xvSCBc .course-group-label::after { content: ""; flex: 1; height: 1px; background: #E6D3C5; }
 .cid-uj33xvSCBc .coming-soon { display: inline-block; padding: 3px 12px; border-radius: 999px; background: transparent; border: 1px dashed #C4876B; color: #A0563B; font-size: 0.78rem; font-weight: 600; }
-.cid-uj33xvSCBc .placeholder-tile { width: 70%; margin: 1rem auto 0; aspect-ratio: 4 / 5; display: flex; align-items: center; justify-content: center; text-align: center; border: 2px dashed #E3C3AF; border-radius: 10px; background: #FEFCF9; color: #B08A78; font-size: 0.85rem; font-style: italic; }
+.cid-uj33xvSCBc .placeholder-tile { width: 78%; margin: 1rem auto 0; aspect-ratio: 203 / 247; display: flex; align-items: center; justify-content: center; text-align: center; border: 2px dashed #E3C3AF; border-radius: 10px; background: #FEFCF9; color: #B08A78; font-size: 0.85rem; font-style: italic; }
 /* no dark gaps between sections */
 body { background-color: #FBF6EF !important; }
 .cid-uj33xvSCBc { display: flow-root; }
