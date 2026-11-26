@@ -1667,7 +1667,7 @@ section[id] { scroll-margin-top: 84px; }
 .cid-uj33xvSCBc .term a { text-decoration: none; }
 .cid-uj33xvSCBc .term .term-links a { color: #B0603F !important; font-weight: 600; }
 .cid-uj33xvSCBc a.term-comments { display: inline-block !important; text-align: left !important; margin-top: 6px; font-size: 0.8rem; font-weight: 600; color: #B0603F !important; }
-.cid-uj33xvSCBc .term .collapse ul { margin-top: 6px; font-size: 0.82rem; }
+.cid-uj33xvSCBc .term ul { margin-top: 6px; font-size: 0.82rem; }
 /* class details: chips + rating */
 .cid-uj33xvSCBc .term + .term { margin-top: 12px; padding-top: 12px; border-top: 1px solid #EEDFD3; }
 .cid-uj33xvSCBc .term-head { font-size: 0.72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #B0603F; margin-bottom: 6px; }
@@ -1685,7 +1685,7 @@ section[id] { scroll-margin-top: 84px; }
 .cid-uj33xvSCBc .term { text-align: center; }
 .cid-uj33xvSCBc .term-facts { justify-content: center; }
 .cid-uj33xvSCBc a.term-comments { text-align: center !important; }
-.cid-uj33xvSCBc .term .collapse ul { text-align: left; }
+.cid-uj33xvSCBc .term ul { text-align: left; }
 @media (min-width: 992px) and (max-width: 1199px) { .cid-uj33xvSCBc .card-title { min-height: 3.9em; } }
 /* class details: comments stay left-aligned while the dropdown opens */
 .cid-uj33xvSCBc .term ul, .cid-uj33xvSCBc .term li { text-align: left; }
